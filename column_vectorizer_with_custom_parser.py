@@ -1,3 +1,6 @@
+# Notebook: Column Vectorizer with Custom Parser
+# Description: vectorize a string column using a custom parser with pyspark
+
 from pyspark.sql.functions import col, udf, flatten, array_distinct, explode, array_contains, transform
 from pyspark.sql.types import StringType, ArrayType
 import shlex
